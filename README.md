@@ -11,7 +11,7 @@ csf - установка роли из исходников, на любую О�
 
 ```bash
 
-  cd /roles/csf/files/csf.tgz && wget https://download.configserver.com/csf.tgz
+cd /roles/csf/files/csf.tgz && wget https://download.configserver.com/csf.tgz
 
 ```
 
@@ -72,16 +72,16 @@ UDP6_OUT: "20,21,53,113,123"
 
 Простой плэйбук запуска роли csf (какие либо параметры роль не принимает)
 
-```bash
-        ---
+```yaml
+---
 
-        - hosts: 127.0.0.1
-          become: yes
+- hosts: 127.0.0.1
+  become: yes
 
-          roles:
-           - csf
+  roles:
+   - csf
 
-```
+
 
 Пример запуска роли с тегами
 ----------------------------
