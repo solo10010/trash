@@ -17,9 +17,8 @@ cd /roles/csf/files/csf.tgz && wget https://download.configserver.com/csf.tgz
 
 Переменные роли
 ---------------
-
-```yaml
 cat roles/csf/vars/csf_settings.yml
+```yaml
 ---
 
 # download Url csf
